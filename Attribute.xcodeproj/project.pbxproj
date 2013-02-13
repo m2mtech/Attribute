@@ -37,6 +37,7 @@
 		5B03958916CC23DE009CBB7B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		5B03958B16CC23DE009CBB7B /* AttributeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttributeViewController.h; sourceTree = "<group>"; };
 		5B03958C16CC23DE009CBB7B /* AttributeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributeViewController.m; sourceTree = "<group>"; };
+		5B03959316CC2418009CBB7B /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		5B03956416CC23DE009CBB7B = {
 			isa = PBXGroup;
 			children = (
+				5B03959316CC2418009CBB7B /* README */,
 				5B03957616CC23DE009CBB7B /* Attribute */,
 				5B03956F16CC23DE009CBB7B /* Frameworks */,
 				5B03956E16CC23DE009CBB7B /* Products */,
@@ -83,8 +85,6 @@
 		5B03957616CC23DE009CBB7B /* Attribute */ = {
 			isa = PBXGroup;
 			children = (
-				5B03957F16CC23DE009CBB7B /* AttributeAppDelegate.h */,
-				5B03958016CC23DE009CBB7B /* AttributeAppDelegate.m */,
 				5B03958816CC23DE009CBB7B /* MainStoryboard.storyboard */,
 				5B03958B16CC23DE009CBB7B /* AttributeViewController.h */,
 				5B03958C16CC23DE009CBB7B /* AttributeViewController.m */,
@@ -96,6 +96,8 @@
 		5B03957716CC23DE009CBB7B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5B03957F16CC23DE009CBB7B /* AttributeAppDelegate.h */,
+				5B03958016CC23DE009CBB7B /* AttributeAppDelegate.m */,
 				5B03957816CC23DE009CBB7B /* Attribute-Info.plist */,
 				5B03957916CC23DE009CBB7B /* InfoPlist.strings */,
 				5B03957C16CC23DE009CBB7B /* main.m */,
@@ -264,6 +266,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Attribute/Attribute-Prefix.pch";
 				INFOPLIST_FILE = "Attribute/Attribute-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +278,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Attribute/Attribute-Prefix.pch";
 				INFOPLIST_FILE = "Attribute/Attribute-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
